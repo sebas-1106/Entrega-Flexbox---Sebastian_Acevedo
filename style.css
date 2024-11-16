@@ -1,0 +1,100 @@
+*{
+    margin-left: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content:flex-start;
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    margin-right: 40px;
+    width: 150px;
+}
+.header{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.bandera{
+    width: 28px;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    width: 35%;
+    text-transform: uppercase;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 23px;
+    width: 420px;
+
+}
+section{
+    border: 2px solid;
+    
+}
+.Menu{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.Menu1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.food{
+    width: 490px;
+}
+.Menu1{
+    justify-content:space-around;
+}
+.Menu2{
+    justify-content:center;
+}
+.chuleta, .hamburguesa, .arepa, .salchipapa{
+    width: 480px;
+
+    
+}
+.bandeja, .asados{
+    width: 500px;
+}
+
+li:hover{
+    width: 150px;
+    transition: 0.5s;
+    font-size: 30px;
+    background-color: orangered;
+    border-radius: 7px;
+}
+ .bandeja:hover, .asados:hover, .hamburguesa:hover, .chuleta:hover, .arepa:hover, .salchipapa:hover{
+    transition: 0.5s;
+    width: 500px;
+    background-color: orangered;
+    font-size: 35px;
+}
+.bandera:hover{
+    width: 35px;
+}
+
+
