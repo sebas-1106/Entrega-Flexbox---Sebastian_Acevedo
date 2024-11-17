@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-image: url(./assets/fondo_negro.png);
+    
 }
 header{
     width: 100%;
@@ -18,14 +19,16 @@ header{
 }
 
 .logo{
-    margin-right: 40px;
+
     width: 150px;
+}
+.slogan{
+    font-family:fantasy;
 }
 .header{
     display: flex;
     gap: 40px;
     list-style: none;
-    justify-content: flex-end;
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
@@ -43,13 +46,11 @@ h2{
 }
 p{
     color: white;
-    font-size: 23px;
-    width: 420px;
-
+    font-size: 24px;
 }
-section{
-    border: 2px solid;
-    
+.descripcion{
+    font-size: 19px;
+    text-align:justify;
 }
 .Menu{
     display: flex;
@@ -68,10 +69,7 @@ section{
 .Menu1{
     justify-content:space-around;
 }
-.Menu2{
-    justify-content:center;
-}
-.chuleta, .hamburguesa, .arepa, .salchipapa{
+.chuleta, .hamburguesa, .arepa, .salchipapa, .tamal, .mojarra{
     width: 480px;
 
     
@@ -79,22 +77,54 @@ section{
 .bandeja, .asados{
     width: 500px;
 }
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
 
-li:hover{
+.superior:hover{
     width: 150px;
     transition: 0.5s;
     font-size: 30px;
     background-color: orangered;
     border-radius: 7px;
 }
- .bandeja:hover, .asados:hover, .hamburguesa:hover, .chuleta:hover, .arepa:hover, .salchipapa:hover{
+ .bandeja:hover, .asados:hover, .hamburguesa:hover, .chuleta:hover, .arepa:hover, .salchipapa:hover, .tamal:hover, .mojarra:hover{
     transition: 0.5s;
     width: 500px;
     background-color: orangered;
-    font-size: 35px;
+    font-size: 32px;
 }
-.bandera:hover{
-    width: 35px;
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+
+}
+.header2{
+    display: flex;
+    gap: 7px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+.redes{
+    width: 20px;
+}
+.tamaño{
+    font-size: 23px
+}
+.tamaño:hover{
+    width: 180px;
+    transition: 0.5s;
+    font-size: 28px;
+    background-color: orangered;
+    border-radius: 7px;
 }
 
 
